@@ -1,0 +1,36 @@
+{
+  "name": "nextjs-template",
+  "version": "0.1.0",
+  "private": true,
+  "author": "shuhei <hello@shuhei.world>",
+  "packageManager": "yarn@3.5.0",
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.31",
+    "autoprefixer": "^10.4.14",
+    "lint-staged": "^13.2.0",
+    "postcss": "^8.4.21",
+    "rome": "^12.0.0",
+    "simple-git-hooks": "^2.8.1",
+    "tailwindcss": "^3.3.1",
+    "typescript": "5.0.3"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "yarn run rome check .",
+    "lint:fix": "yarn run rome check . --apply",
+    "format": "yarn run rome format .",
+    "format:fix": "yarn run rome format . --write"
+  }
+}

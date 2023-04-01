@@ -1,0 +1,6 @@
+{
+  "**/*.{js,jsx,ts,tsx}": [
+    "yarn run rome check",
+    "yarn run rome format --write"
+  ]
+}
