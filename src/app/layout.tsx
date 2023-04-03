@@ -1,4 +1,8 @@
-import './src/app/globals.css';
+import 'src/app/globals.css';
+
+export const metadata = {
+  title: 'My Nextjs template',
+};
 
 export default function RootLayout({
   children,
