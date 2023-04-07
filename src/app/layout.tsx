@@ -1,6 +1,7 @@
 import 'src/app/globals.css';
+import type { Metadata } from 'next';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'My Nextjs template',
 };
 
@@ -11,7 +12,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang='ja'>
-      <head />
       <body>{children}</body>
     </html>
   );
