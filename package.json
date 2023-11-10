@@ -2,8 +2,8 @@
   "name": "nextjs-template",
   "version": "0.2.0",
   "private": true,
-  "author": "shuhei <hello@shuhei.world>",
-  "packageManager": "yarn@3.5.0",
+  "author": "shuhei <72839906+oleax21@users.noreply.github.com>",
+  "packageManager": "yarn@4.0.1",
   "dependencies": {
     "next": "latest",
     "react": "latest",

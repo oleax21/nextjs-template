@@ -1,6 +1,6 @@
 # My Nextjs template
 
-- yarn v3 (disable Zero-Installs)
+- yarn v4 (disable PnP)
 - Nextjs
 - TypeScript
 - Tailwindcss
